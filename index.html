@@ -4,10 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="js\script.js""></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3e81cc3298.js" crossorigin="anonymous"></script>
+    <!-- <script src="js\script.js" defer"></script> -->
     <title>Rock Paper Scissors</title>
 </head>
 <body>
-    
+    <header>
+        <h1 class="title">Rock Paper Scissors</h1>
+    </header>
+
+    <main class="scorePanel">
+
+        <div class="info">
+        <h2 class="infoTitle">First to score 5 points wins the game</h2>
+        </div>
+
+        <div class="score">
+            <div class="handChosen"><img src="./images/rockUser.svg" alt="" class="hands"></div>
+            <div class="handChosen"><img src="./images/rockPc.svg" alt="" class="hands"></div>
+        </div>
+
+        <div class="points">
+            <p>Player Score 0 - 0 Machine Score</p>
+        </div>
+
+        <div class="info">
+            <h2 class="choseHand">Choose your hand</h2>
+        </div>
+
+        <div class="buttonsUser">
+            <div class="btn"><img src="./images/rockUser.svg" alt="Rock" class="hands"></div>
+            <div class="btn"><img src="./images/paperUser.svg" alt="Paper" class="hands"></div>
+            <div class="btn"><img src="./images/scissorsUser.svg" alt="Scissors" class="hands"></div>
+        </div>
+    </main>
+    <footer>
+        <div class="links">Copyright &copy; 2022 Mettralla <a href="https://github.com/Mettralla"><i id="github" class="fa-brands fa-github"></i></a></div>
+    </footer>
 </body>
 </html>

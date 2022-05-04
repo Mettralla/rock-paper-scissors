@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+
+header {
+    background-color: #121a26;
+    padding: 3vh;
+}
+
+.title {
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'VT323',
+    monospace;
+    font-size: 7vh;
+}
+
+/* SCORE PANEL */
+
+.scorePanel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.info {
+    color: #F9FAF8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 3vh;
+}
+
+.choseHand {
+    margin-bottom: 3vh;
+}
+
+.hands {
+    height: 12vh;
+    width: 12vh;
+}
+
+.btn {
+    background-color: antiquewhite;
+    padding: 5vh;
+    border-radius: 3vh;
+}
+
+
+body {
+    background-color: #1f2937;
+    font-family: Helvetica,
+    sans-serif;
+}
+
+
+.score {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2vh;
+    margin-top: 4vh;
+    gap: 25vh;
+}
+
+.points {
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    gap: 28vh;
+    margin-top: 1vh;
+}
+
+.handChosen {
+    background-color: antiquewhite;
+    padding: 5vh;
+    border-radius: 3vh;
+}
+
+.buttonsUser {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #121a26;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    padding: 2.5vh; 
+    /* Mantiene el footer pegado abajo */
+    width:100%;
+    position:absolute;
+    bottom:0;
+    left:0;
+    font-family: Helvetica,
+    sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.links {
+    color: #F9FAF8;
+}
+
