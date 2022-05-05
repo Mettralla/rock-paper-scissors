@@ -37,11 +37,19 @@ header {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: 3vh;
+    margin-top: 2vh;
+}
+
+.infoTitle {
+    margin-bottom: 1vh;
 }
 
 .choseHand {
     margin-bottom: 3vh;
+}
+
+#scorePoints {
+    margin-bottom: 1vh;
 }
 
 .hands {
@@ -55,6 +63,17 @@ header {
     border-radius: 3vh;
 }
 
+.btn:hover {
+    background-color: lightcyan;
+    padding: 5vh;
+    border-radius: 3vh;
+}
+
+.btn:active {
+    background-color: rgb(236, 119, 119);
+    padding: 5vh;
+    border-radius: 3vh;
+}
 
 body {
     background-color: #1f2937;
@@ -69,7 +88,7 @@ body {
     justify-content: center;
     align-items: center;
     margin-bottom: 2vh;
-    margin-top: 4vh;
+    margin-top: 2vh;
     gap: 25vh;
 }
 
@@ -102,7 +121,7 @@ footer {
     display: flex; 
     align-items: center;
     justify-content: center;
-    padding: 2.5vh; 
+    padding: 1.5vh; 
     /* Mantiene el footer pegado abajo */
     width:100%;
     position:absolute;

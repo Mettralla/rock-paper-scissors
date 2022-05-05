@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/3e81cc3298.js" crossorigin="anonymous"></script>
-    <!-- <script src="js\script.js" defer"></script> -->
+    <script src="js\script.js" defer></script>
     <title>Rock Paper Scissors</title>
 </head>
 <body>
@@ -21,25 +21,29 @@
 
         <div class="info">
         <h2 class="infoTitle">First to score 5 points wins the game</h2>
+        <div class="points">
+        <p id="scorePoints">Player Score 0 - 0 Machine Score</p>
+        </div>
         </div>
 
         <div class="score">
-            <div class="handChosen"><img src="./images/rockUser.svg" alt="" class="hands"></div>
-            <div class="handChosen"><img src="./images/rockPc.svg" alt="" class="hands"></div>
+            <div class="handChosen"><img id="playerHand" src="./images/questionMark.svg" alt="questionMark" class="hands"></div>
+            <div class="handChosen"><img id="pcHand" src="./images/questionMark.svg" alt="questionMark" class="hands"></div>
         </div>
 
         <div class="points">
-            <p>Player Score 0 - 0 Machine Score</p>
+            <p id="message"></p>
         </div>
+
 
         <div class="info">
             <h2 class="choseHand">Choose your hand</h2>
         </div>
 
         <div class="buttonsUser">
-            <div class="btn"><img src="./images/rockUser.svg" alt="Rock" class="hands"></div>
-            <div class="btn"><img src="./images/paperUser.svg" alt="Paper" class="hands"></div>
-            <div class="btn"><img src="./images/scissorsUser.svg" alt="Scissors" class="hands"></div>
+            <div class="btn" id="btn1"><img src="./images/rockUser.svg" alt="Rock" class="hands"></div>
+            <div class="btn" id="btn2"><img src="./images/paperUser.svg" alt="Paper" class="hands"></div>
+            <div class="btn" id="btn3"><img src="./images/scissorsUser.svg" alt="Scissors" class="hands"></div>
         </div>
     </main>
     <footer>
